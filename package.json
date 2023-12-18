@@ -1,0 +1,25 @@
+{
+  "name": "cypress-playwright",
+  "version": "1.0.0",
+  "description": "Repo containing Cypress and Playwright test cases",
+  "main": "index.js",
+  "scripts": {
+    "cypress-test-headless": "npx cypress run",
+    "playwright-test-headless": "npx playwright test --ui",
+     "cypress-test": "npx cypress open",
+    "playwright-test": "npx playwright test --ui"
+    
+
+  },
+  "author": "Anshita Bhasin",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  }
+}
