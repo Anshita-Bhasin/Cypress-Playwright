@@ -39,6 +39,11 @@ To run tests on your local machine:
 2. Run the following command after cloning:
 npm install
 
+## Version:
+1. Cypress Version : 13.6.1
+2. Playwright Version: 1.40.1
+
+## Screenshots:
 
 
 <img width="1553" alt="image" src="https://github.com/Anshita-Bhasin/Cypress-Playwright/assets/10338077/fe513a81-c9f5-4da6-99c9-eb87c063d2be">
