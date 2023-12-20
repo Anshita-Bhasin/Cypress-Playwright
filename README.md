@@ -10,7 +10,7 @@ This repository contains test cases for both Cypress and Playwright, allowing yo
 npm run cypress-test-headless
 
 - To run Cypress tests in UI mode, execute:
-npm run cypress-test
+npm run cypress-test-ui
 
 ### Playwright Tests
 
@@ -18,7 +18,7 @@ npm run cypress-test
 npm run playwright-test-headless
 
 - To run Playwright tests in UI mode, execute:
-npm run playwright-test
+npm run playwright-test-ui
 
 ### Running Both Playwright and Cypress Tests
 
