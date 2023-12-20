@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cypress-test-headless": "npx cypress run",
-    "playwright-test-headless": "npx playwright test --ui",
-     "cypress-test": "npx cypress open",
-    "playwright-test": "npx playwright test --ui"
+    "playwright-test-headless": "npx playwright test",
+    "cypress-test-ui": "npx cypress open",
+    "playwright-test-ui": "npx playwright test --ui"
     
 
   },
