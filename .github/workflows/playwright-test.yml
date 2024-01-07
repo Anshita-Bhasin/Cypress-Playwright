@@ -1,4 +1,4 @@
-name: Cypress And Playwright Tests
+name: Playwright Tests
 on:
   push:
     branches: [ main, master ]
@@ -13,13 +13,4 @@ jobs:
       with:
           command: npm run playwright-test-headless
 
-  Cypress-Test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout GitCode
-        uses: actions/checkout@v3
-
-      - name: Run Cypress Test
-        uses: cypress-io/github-action@v5
-        with:
-          command: npm run cypress-test-headless
+ 
