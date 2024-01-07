@@ -19,7 +19,7 @@ jobs:
       run: npx playwright install --with-deps
 
     - name: Run Playwright tests
-      run: npx playwright test
+      run: npm run playwright-test-headless
       
     - uses: actions/upload-artifact@v3
       if: always()
@@ -38,3 +38,6 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v6 
+        with:
+         command: npm run cypress-test-headless
+          
