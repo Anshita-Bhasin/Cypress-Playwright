@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Install Playwright Browsers
+    - name: Install playwright browsers
       run: npx playwright install --with-deps
-      with:
-          command: npm run playwright-test-headless
+    - name: Run tests
+      run: npm run playwright-test-headless
 
   Cypress-Test:
     runs-on: ubuntu-latest
