@@ -14,7 +14,7 @@ describe('Registration Flow', () => {
         cy.get('input[type="radio"]').eq(1).check()
         cy.get('input[type="checkbox"]').check()
         cy.get('.btn.btn-primary').click()
-        cy.contains('Your Account Has Been Created!').should('exist')
+        cy.contains('Your Account Has Been Created!').should('be.visible')
 
     })
 })
