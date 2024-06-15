@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 15 22:38:18 GST 2024","Sat Jun 15 22:38:22 GST 2024","3798","webkit","openCart.spec.ts","","","","Registration Flow",""
+"passed","Sat Jun 15 22:38:18 GST 2024","Sat Jun 15 22:38:23 GST 2024","4361","chromium","openCart.spec.ts","","","","Registration Flow",""
+"passed","Sat Jun 15 22:38:18 GST 2024","Sat Jun 15 22:38:24 GST 2024","5980","firefox","openCart.spec.ts","","","","Registration Flow",""
