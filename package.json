@@ -6,7 +6,6 @@
   "scripts": {
     "cypress-test-headless": "npx cypress run",
     "playwright-test-headless": "npx playwright test",
-    "cypress-test-with-report": "npm run cypress-test-headless;npx allure serve allure-results",
     "playwright-test-with-report": "npm run playwright-test-headless ; allure generate allure-results -o allure-report --clean; allure open allure-report ",
     "cypress-test-ui": "npx cypress open",
     "playwright-test-ui": "npx playwright test --ui"
@@ -23,6 +22,7 @@
     "allure-commandline": "^2.29.0",
     "allure-cypress": "^3.0.0-beta.3",
     "allure-playwright": "^3.0.0-beta.3",
+    "cypress-mochawesome-reporter": "^3.8.2",
     "typescript": "^5.3.3"
   }
 }

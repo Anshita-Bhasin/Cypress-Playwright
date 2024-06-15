@@ -1,3 +1,3 @@
 
 import './commands'
-import "allure-cypress/commands";
+import 'cypress-mochawesome-reporter/register';
