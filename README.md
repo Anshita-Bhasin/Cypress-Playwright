@@ -12,6 +12,10 @@ npm run cypress-test-headless
 - To run Cypress tests in UI mode, execute:
 npm run cypress-test-ui
 
+- To run Cypress tests and get the allure report, execute:
+npm run cypress-test-with-report
+
+
 ### Playwright Tests
 
 - To run Playwright tests in headless mode, execute:
@@ -19,6 +23,9 @@ npm run playwright-test-headless
 
 - To run Playwright tests in UI mode, execute:
 npm run playwright-test-ui
+
+- To run Playwright tests and get the allure report, execute:
+npm run playwright-test-with-report
 
 ### Running Both Playwright and Cypress Tests
 
@@ -56,5 +63,18 @@ npm install
 
 <img width="1705" alt="image" src="https://github.com/Anshita-Bhasin/Cypress-Playwright/assets/10338077/97a808dd-f049-4486-9ee0-8558cd102a5e">
 
+
+
+## Reporting : 
+
+# Allure Reporting - Cypress & Playwright
+
+
+![image](https://github.com/Anshita-Bhasin/Cypress-Playwright/assets/10338077/c8802f12-1b0a-4055-8d1a-417ed88e76ad)
+
+
+
+
+![image](https://github.com/Anshita-Bhasin/Cypress-Playwright/assets/10338077/5315a10e-ac75-480f-b5bc-cbec72dcd10e)
 
 
